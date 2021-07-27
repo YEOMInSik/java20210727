@@ -20,6 +20,8 @@ public class BooleanEx {
         booleanEx.turn();
         booleanEx.turn();
         booleanEx.turn();
+        TV tv = new TV();
+        tv.turn();
 
     }
 
@@ -37,3 +39,41 @@ class Myfrm extends JFrame {
 
     }
 }
+
+
+class TV{
+    String model;
+    String majer;
+
+    int channel;
+    boolean power;
+    int volume;
+
+    void turn(){
+        power = power ? false : true;
+    }
+    void chanUp(){}
+    void chanDown(){}
+    void volUp(){}
+    void volDown(){}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
